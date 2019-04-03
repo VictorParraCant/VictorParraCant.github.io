@@ -1,41 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang='es'>
   <head>
-    <title>Victor ParraCant | Web Developer</title>
-    <meta charset="utf-8">
-    <meta name="description" content="Web Frontend designer and Developer.">
-    <meta name="keywords" content="VictorParra,ParraCant,web,developer,design">
-    <meta name="author" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!--[if lt IE 9]>
-     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title>Victor ParraCant | Frontend Developer</title>
+    <meta charset='utf-8'>
+    <meta name='description' content='Frontend Developer.'>
+    <meta name='keywords' content='VictorParra,VictorParraCant,web,developer,design,apps,react,native,Frontend'>
+    <meta name='author' content=''>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' type='image/png' href='img/favicon.png'>
+    <link href='https://fonts.googleapis.com/css?family=Mrs+Sheppards' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:100,300' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,500,700' rel='stylesheet'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.1/css/all.css' integrity='sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf' crossorigin='anonymous'>
+    <link rel='stylesheet' href='css/main.css'>
   </head>
   <body>
-    <section id="main-header">
-      <div id="main-header-content">
-        <h1>Victor Parra</h1>
-        <h2>Web Developer</h2>
-        <nav class="navbar">
-          <div class="navbar-links">
-            <a href="https://github.com/VictorParraCant" target="_blank" class="navbar-link">
-              <i class="fa fa-github fa-2x"></i>GitHub</a>
-            <a href="https://plus.google.com/u/0/+VictorVrS/posts" target="_blank" class="navbar-link">
-              <i class="fa fa-google-plus fa-2x"></i>Contact</a>
-            <a href="https://twitter.com/VictorParraCant" target="_blank" class="navbar-link">
-              <i class="fa fa-twitter fa-2x"></i>Twitter</a>
-            <a href="https://www.behance.net/Victor-Vrs" target="_blank" class="navbar-link">
-              <i class="fa fa-behance fa-2x"></i>Behance</a>
-          </div>
-        </nav>
+    <nav>
+      <a href='#' class='link'><span id='logo'>V</span></a>
+      <a href='#' class='link'><span id='contact'>Contacto</span></a>
+    </nav>
+    <section class='home'>
+      <h1>Frontend Developer</h1>
+      <h3>Me gusta programar las cosas desde cero, y disfruto dándole vida a las ideas.</h3>
+      <img id='profile' src='img/profile.png' alt='profile'>
+    </section>
+    <section class='pattern'>
+
+    </section>
+    <section class='about'>
+      <div class='info'>
+        <h2>Hola, soy Víctor Parra</h2>
+        <p class='about-info'>Desde que empecé mi carrera como programador hace más de 3 años y tras pasar por varias empresas, he aprendido a organizarme y adaptarme rápidamente para superar casi cualquier situación y deadline que tenga por delante con apenas una taza de café de más.</p>
+        <p class='about-info'>Durante este tiempo he podido disfrutar de programar codo con codo con diferentes desarrolladores, diseñadores o simplemente personas que me aportaban nuevos conocimientos y puntos de vista para evolucionar profesionalmente.</p>
+        <p class='about-info'>Y siguiendo la filosofía de 'Nunca pares de aprender', en cada trabajo he buscado un nuevo desafío con los que ponerme a prueba, y aunque ya han pasado algunos años desde que empecé este camino, siento que aún me queda mucho por recorrer y aprender.</p>
       </div>
     </section>
-    <script src="js/app.js"></script>
+    <section class='skills'>
+      <div class='skill'>
+        <i class='fas fa-desktop'></i>
+        <p>Webs</p>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>LESS & SASS</li>
+          <li>Bootstrap, Foundation, Bulma...</li>
+        </ul>
+      </div>
+      <div class='skill'>
+        <i class='fas fa-mobile-alt'></i>
+        <p>Apps</p>
+        <ul>
+          <li>React & React Native</li>
+          <li>Redux & MobX</li>
+          <li>Redux-saga, Redux-persist</li>
+          <li>React-router & React-navigation</li>
+          <li>Express</li>
+          <li>MongoDB & Mongoose</li>
+        </ul>
+      </div>
+      <div class='skill'>
+        <i class='fas fa-rocket'></i>
+        <p>Extras</p>
+        <ul>
+          <li>Testing con Jest</li>
+          <li>Docker</li>
+          <li>PM2</li>
+          <li>DigitalOcean</li>
+        </ul>
+      </div>
+    </section>
+    <section class='contact'>
+      <span id='logo-white'>Víctor Parra</span>
+      <p class='contact-text'>Vivir, aprender y mejorar cada día.</p>
+      <div class='social'>
+        <a href='https://github.com/VictorParraCant' class='social-link' target='_blank'><i class='fab fa-github-alt' /></a>
+        <a href='https://twitter.com/VictorParraCant' class='social-link' target='_blank'><i class='fab fa-twitter' /></a>
+        <a href='https://www.behance.net/Victor-Vrs' class='social-link' target='_blank'><i class='fab fa-behance' /></a>
+        <a href='mailto:victor.parracant@gmail.com' class='social-link' ><i class='far fa-envelope' /></a>
+      </div>
+      <span class='copyright'>© Hecho a mano por mí.</span>
+    </section>
+    <script type='text/javascript' src='./index.js'></script>
   </body>
 </html>
