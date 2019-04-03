@@ -368,13 +368,13 @@ textarea {
 
 body {
   font-family: 'Raleway', sans-serif;
-  min-width: 400px;
+  min-width: 25rem;
 }
 
 nav {
-  max-width: 1200px;
-  padding: 10px;
-  padding-top: 20px;
+  max-width: 75rem;
+  padding: 0.625rem;
+  padding-top: 1.25rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -397,9 +397,14 @@ a {
 }
 
 #contact {
-  padding: 8px 16px;
+  padding: 0.5rem 0.625rem;
   border: 1px solid #0B3AAF;
-  border-radius: 20px;
+  border-radius: 1.25rem;
+}
+
+#contact:hover {
+  background-color: #0B3AAF;
+  color: #FFFFFF;
 }
 
 #logo-white {
@@ -410,7 +415,7 @@ a {
 }
 
 .home {
-  max-width: 1200px;
+  max-width: 75rem;
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
@@ -424,19 +429,19 @@ h1 {
   font-size: 3rem;
   font-weight: bold;
   color: #363636;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 h3 {
   font-size: 1rem;
   color: #646464;
-  padding: 5px 30px;
+  padding: 0.3125rem 1.875rem;
 }
 
 #profile {
@@ -444,7 +449,7 @@ h3 {
   height: 15rem;
   border-radius: 50%;
   border: 3px solid #0B3AAF;
-  margin: 60px auto;
+  margin: 3.75rem auto 1rem;
 }
 
 .about {
@@ -454,52 +459,57 @@ h3 {
   align-items: center;
   flex-flow: column nowrap;
   color: #FFFFFF;
-  padding: 80px 30px;
+  padding: 5rem 1.875rem;
   text-align: center;
+  z-index: 2;
 }
 
 .info {
-  max-width: 860px;
+  max-width: 53.75rem;
 }
 
 .about-info {
   font-family: 'Roboto Mono', monospace;
   font-weight: 100;
   line-height: 1.6;
-  margin: 5px;
+  margin: 0.3125rem;
   padding-bottom: 12px;
   color: #FFFFFF;
 }
 
 .pattern {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
   width: 100%;
-  height: 140px;
+  height: 8.75rem;
+  padding-bottom: 2.6rem;
 }
 
 .skills {
-  max-width: 1400px;
+  max-width: 87.5rem;
   background-color: #FFFFFF;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: stretch;
-  padding: 40px 20px;
-  margin: 20px auto;
+  padding: 2.5rem 1.25rem;
+  margin: 1.25rem auto;
 }
 
 .skill {
   width: 400px;
   background-color: #FFFFFF;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 1.25rem;
+  padding-bottom: 2.5rem;
   border: 1px solid rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
 .skill > i {
   font-size: 2rem;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 0.625rem;
+  margin-bottom: 1.875rem;
   color: #0B3AAF;
 }
 
@@ -507,7 +517,7 @@ h3 {
   font-size: 1.2rem;
   font-weight: bold;
   color: #363636;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .skill > ul > li {
@@ -516,27 +526,39 @@ h3 {
   line-height: 1.6;
 }
 
+.tellme {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin: 2rem;
+}
+
+.tellme > p {
+  line-height: 1.6;
+  padding: 0.3125rem 1.25rem;
+}
+
 .contact {
   background-color: #0B3AAF;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column nowrap;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   margin: 0 auto;
 }
 
 .contact-text {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.6;
-  padding: 30px 0px 5px;
+  padding: 1.875rem 0px 0.3125rem;
 }
 
 .social {
-  margin: 20px;
-  padding: 10px;
-  padding-bottom: 30px;
+  margin: 1.25rem;
+  padding: 0.625rem;
+  padding-bottom: 1.875rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -544,10 +566,10 @@ h3 {
 
 .social-link {
   color: #FFFFFF;
-  padding: 10px;
+  padding: 0.625rem;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  margin: 5px 20px;
+  margin: 0.3125rem 1.25rem;
   font-size: 1.3rem;
 }
 
